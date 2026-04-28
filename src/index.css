@@ -1,0 +1,91 @@
+/* Container */
+.device-search {
+  max-width: 500px;
+  margin: 40px auto;
+  font-family: Arial, sans-serif;
+}
+
+/* Label */
+.device-search label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 600;
+}
+
+/* Input */
+.device-search input {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+  outline: none;
+  transition: border 0.2s ease;
+}
+
+.device-search input:focus {
+  border-color: #007bff;
+}
+
+/* Info messages */
+.device-search .info {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.device-search .error {
+  color: red;
+}
+
+.device-search .loading {
+  color: #555;
+}
+
+/* Retry button */
+.device-search button {
+  margin-top: 6px;
+  padding: 6px 10px;
+  font-size: 13px;
+  border: none;
+  border-radius: 4px;
+  background: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+.device-search button:hover {
+  background: #0056b3;
+}
+
+/* Results list */
+.device-search ul {
+  margin-top: 12px;
+  padding: 0;
+  list-style: none;
+  border: 1px solid #eee;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+/* List item */
+.device-search li {
+  padding: 10px 12px;
+  border-bottom: 1px solid #eee;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+/* Remove border from last item */
+.device-search li:last-child {
+  border-bottom: none;
+}
+
+/* Hover */
+.device-search li:hover {
+  background: #f5f5f5;
+}
+
+/* Active (keyboard selected) */
+.device-search li.active {
+  background: #e6f0ff;
+}
